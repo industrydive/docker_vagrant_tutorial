@@ -7,4 +7,3 @@ COPY tutorial.conf /etc/nginx/conf.d/tutorial.conf
 
 VOLUME /srv/www
 WORKDIR /srv/www
-COPY uwsgi_params /srv/www/uwsgi_params
